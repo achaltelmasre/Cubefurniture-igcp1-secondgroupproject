@@ -1,0 +1,12 @@
+.back-color{
+    background-color: rgb(248, 202, 146);
+}
+.big-img{
+    width: 800px;
+   
+}
+
+#carouselExampleCaptions{
+    height: 500px;
+    overflow: hidden;
+}
