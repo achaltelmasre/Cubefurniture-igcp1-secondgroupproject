@@ -1,8 +1,4 @@
 
-.card1{
-  /* border: 1px solid black;
-  box-shadow: 0 0 2px 1px black; */
- /* margin: auto;
-  width: 350px;
-  margin: 10px;*/
+.card1:hover{
+  box-shadow: 0 0 5px 1px gray;
 }
