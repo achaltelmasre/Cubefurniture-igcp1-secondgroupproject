@@ -3,7 +3,9 @@
     text-align: center;
     
 } */
-
+* {
+    scroll-behavior: smooth;
+ }
 .tagline-container{
     margin-bottom: 80px;
     margin-left: 110px;
@@ -14,4 +16,13 @@
 }
 .container-2{
     margin-top: 80px;
+}
+.office-work{
+    color: rgb(240, 34, 102);
+    font-family: cursive;
+    font-size: 32px;
+}
+.work-station{
+    font-size:26px;
+    color: black;
 }

@@ -6,12 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catelog</title>
     <link rel="stylesheet" href="./../css/catlog.css" />
+    <link rel="stylesheet" href="./../css/style.css" />
+
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 
 <body>
-    <p class="text-center fs-1 text-secondary">Catlog</p>
+
+  <nav class="navbar navbar-expand-lg navbar-light back-color">
+    <div class="container-fluid">
+        <img src="./../img/index/cubelogo.png" height="50px"/>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./shop.html">Shop Now</a>
+          </li>
+          <li class="nav-item ">
+            <a href="./../pages/catlog.html" class="nav-link  active" >
+              Category
+            </a>
+            
+          
+          <li class="nav-item">
+            <a href="./../pages/about.html" class="nav-link active">About Us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-primary" type="submit">Search</button>
+          <button class="btn text-white bg-success ms-5  active" type="submit">LogIn</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+    <p class="text-center fs-1">Catlog</p>
     <div class="container">
         <div class="row">
             <div class="col-md-6 mt-5">
@@ -34,47 +82,152 @@
 
     <div class="container-2">
         <div class="btn-group column d-flex ms-5 me-5" role="group" aria-label="Basic outlined example">
-            <button type="button" class="btn btn-outline-warning p-2 fs-4">Work Room</button>
-            <button type="button" class="btn btn-outline-info p-2 fs-4">Bed Room</button>
-            <button type="button" class="btn btn-outline-secondary p-2 fs-4">Living Room</button>
-            <button type="button" class="btn btn-outline-danger p-2 fs-4">Dining Room</button>
+            <button type="button" class="btn btn-outline-warning p-2 fs-4"><a href="#office-work" class="text-decoration-none">Work Room</a></button>
+            <button type="button" class="btn btn-outline-info p-2 fs-4"><a href="#Bed-Room" class="text-decoration-none">Bed Room</a></button>
+            <button type="button" class="btn btn-outline-secondary p-2 fs-4"><a href="#Living-Room" class="text-decoration-none">Living Room</a></button>
+            <button type="button" class="btn btn-outline-danger p-2 fs-4"><a href="#Dining-Room" class="text-decoration-none">Dining Room</a></button>
           </div>
       </div>
     </div>
 
     
-   <p class="text-center fs-2 mt-5">Office-Work / Work Station</p>
+   <p class="text-center fs-2 mt-5"><span class="office-work" id="office-work">Office-Work</span> / <span class="work-station"> Work Station</span></p>
     <div class="d-flex justify-content-around m-5">
         <div class="card shadow m-4" style="width: 18rem;">
-            <img src="./../img/catlog-img/furniture-img5.png" class="card-img-top" alt="...">
+            <img src="./../img/catlog-img/office-room1.webp" class="card-img-top" style="height: 16rem;" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-secondary">Go somewhere</a>
+                <a href="#" class="btn btn-secondary">See More</a>
             </div>
           </div>
         
           <div class="card shadow m-4" style="width: 18rem;">
-            <img src="./../img/catlog-img/furniture-img4.jpg" class="card-img-top" alt="...">
+            <img src="./../img/catlog-img/office4.jpg" class="card-img-top" style="height: 16rem;" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-secondary">Go somewhere</a>
+                <a href="#" class="btn btn-secondary">See More</a>
             </div>
           </div>
         
           <div class="card shadow m-4" style="width: 18rem;">
-            <img src="./../img/catlog-img/furniture-3.jpg" class="card-img-top" alt="...">
+            <img src="./../img/catlog-img/office2.webp" class="card-img-top" style="height: 16rem;" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-secondary">Go somewhere</a>
+                <a href="#" class="btn btn-secondary">See More</a>
             </div>
           </div>
     
     </div>
     
 
+
+
+   
+    <p class="text-center fs-2 mt-5"><span class="office-work" id="Bed-Room">Bed-Room</span> / <span class="work-station"> Bed-Rooms-furnitures</span></p>
+    <div class="d-flex justify-content-around m-5">
+        <div class="card shadow m-4" style="width: 18rem;">
+            <img src="./../img/catlog-img/bedroom1.jpg" class="card-img-top" style="height: 16rem;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-secondary">See More</a>
+            </div>
+          </div>
+        
+          <div class="card shadow m-4" style="width: 18rem;">
+            <img src="./../img/catlog-img/bedroom2.jpg" class="card-img-top" style="height: 16rem;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-secondary">See More</a>
+            </div>
+          </div>
+        
+          <div class="card shadow m-4" style="width: 18rem;">
+            <img src="./../img/catlog-img/bedroom4.avif" class="card-img-top" style="height: 16rem;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-secondary">See More</a>
+            </div>
+          </div>
+    
+    </div>
+    
+
+
+
+
+   
+
+
+    <p class="text-center fs-2 mt-5"><span class="office-work"id="Dining-Room">Dining Rooms</span> / <span class="work-station"> Kichen & Dining-Rooms</span></p>
+    <div class="d-flex justify-content-around m-5">
+        <div class="card shadow m-4" style="width: 18rem;">
+            <img src="./../img/catlog-img/dining1.jpg" class="card-img-top" style="height: 16rem;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-secondary">See More</a>
+            </div>
+          </div>
+        
+          <div class="card shadow m-4" style="width: 18rem;">
+            <img src="./../img/catlog-img/dining3.avif" class="card-img-top" style="height: 16rem;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-secondary">See More</a>
+            </div>
+          </div>
+        
+          <div class="card shadow m-4" style="width: 18rem;">
+            <img src="./../img/catlog-img/dining2.jpg" class="card-img-top" style="height: 16rem;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-secondary">See More</a>
+            </div>
+          </div>
+    
+    </div>
+    
+
+
+    <p class="text-center fs-2 mt-5"><span class="office-work"id="Living-Room">Living Rooms</span> / <span class="work-station">Living-Rooms-Furnitures</span></p>
+    <div class="d-flex justify-content-around m-5">
+        <div class="card shadow m-4" style="width: 18rem;">
+            <img src="./../img/catlog-img/living3.jpg" class="card-img-top" style="height: 16rem;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-secondary">See More</a>
+            </div>
+          </div>
+        
+          <div class="card shadow m-4" style="width: 18rem;">
+            <img src="./../img/catlog-img/living1.jpg" class="card-img-top" style="height: 16rem;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-secondary">See More</a>
+            </div>
+          </div>
+        
+          <div class="card shadow m-4" style="width: 18rem;">
+            <img src="./../img/catlog-img/living2.jpg" class="card-img-top" style="height: 16rem;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-secondary">See More</a>
+            </div>
+          </div>
+    
+    </div>
+    
 
 
 
